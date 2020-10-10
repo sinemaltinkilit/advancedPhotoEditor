@@ -1,0 +1,245 @@
+package com.simealapps.simealape.camera;
+
+
+import com.simealapps.simealape.R;
+
+public class FilterTypeHelper {
+    public static int FilterType2Color(int i) {
+        switch (i) {
+            case 0:
+                return R.color.filter_color_grey_light;
+            case 1:
+                return R.color.filter_color_blue;
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+                return R.color.filter_color_brown_light;
+            case 6:
+            case 7:
+            case 8:
+                return R.color.filter_color_red;
+            case 9:
+                return R.color.filter_color_red_dark;
+            case 10:
+            case 11:
+            case 12:
+                return R.color.filter_color_pink;
+            case 13:
+            case 14:
+                return R.color.filter_color_green_dark;
+            case 15:
+            case 16:
+            case 17:
+                return R.color.filter_color_brown;
+            case 18:
+                return R.color.filter_color_blue_dark;
+            case 19:
+            case 20:
+                return R.color.filter_color_blue_dark_dark;
+            case 23:
+            case 24:
+            case 25:
+            case 26:
+            case 27:
+            case 28:
+            case 29:
+            case 30:
+            case 31:
+            case 32:
+            case 33:
+            case 34:
+            case 35:
+            case 36:
+            case 37:
+            case 38:
+            case 39:
+            case 40:
+            case 41:
+                return R.color.filter_color_brown_dark;
+            default:
+                return R.color.filter_color_grey_light;
+        }
+    }
+
+    public static int FilterType2Name(int i) {
+        switch (i) {
+            case 0:
+                return R.string.filter_none;
+            case 1:
+                return R.string.filter_fairytale;
+            case 2:
+                return R.string.filter_sunrise;
+            case 3:
+                return R.string.filter_sunset;
+            case 4:
+                return R.string.filter_whitecat;
+            case 5:
+                return R.string.filter_blackcat;
+            case 6:
+                return R.string.filter_beauty;
+            case 7:
+                return R.string.filter_skinwhiten;
+            case 8:
+                return R.string.filter_healthy;
+            case 9:
+                return R.string.filter_sweets;
+            case 10:
+                return R.string.filter_romance;
+            case 11:
+                return R.string.filter_sakura;
+            case 12:
+                return R.string.filter_warm;
+            case 13:
+                return R.string.filter_antique;
+            case 14:
+                return R.string.filter_nostalgia;
+            case 15:
+                return R.string.filter_calm;
+            case 16:
+                return R.string.filter_latte;
+            case 17:
+                return R.string.filter_tender;
+            case 18:
+                return R.string.filter_cool;
+            case 19:
+                return R.string.filter_emerald;
+            case 20:
+                return R.string.filter_evergreen;
+            case 21:
+                return R.string.filter_crayon;
+            case 22:
+                return R.string.filter_sketch;
+            case 23:
+                return R.string.filter_amaro;
+            case 24:
+                return R.string.filter_brannan;
+            case 25:
+                return R.string.filter_brooklyn;
+            case 26:
+                return R.string.filter_Earlybird;
+            case 27:
+                return R.string.filter_freud;
+            case 28:
+                return R.string.filter_hefe;
+            case 29:
+                return R.string.filter_hudson;
+            case 30:
+                return R.string.filter_inkwell;
+            case 31:
+                return R.string.filter_kevin;
+            case 32:
+                return R.string.filter_lomo;
+            case 33:
+                return R.string.filter_n1977;
+            case 34:
+                return R.string.filter_nashville;
+            case 35:
+                return R.string.filter_pixar;
+            case 36:
+                return R.string.filter_rise;
+            case 37:
+                return R.string.filter_sierra;
+            case 38:
+                return R.string.filter_sutro;
+            case 39:
+                return R.string.filter_toastero;
+            case 40:
+                return R.string.filter_walden;
+            case 41:
+                return R.string.filter_xproii;
+            default:
+                return R.string.filter_none;
+        }
+    }
+
+    public static int FilterType2Thumb(int i) {
+        switch (i) {
+            case 0:
+                return R.drawable.filter_thumb_original;
+            case 1:
+                return R.drawable.filter_thumb_fairytale;
+            case 2:
+                return R.drawable.filter_thumb_sunrise;
+            case 3:
+                return R.drawable.filter_thumb_sunset;
+            case 4:
+                return R.drawable.filter_thumb_whitecat;
+            case 5:
+                return R.drawable.filter_thumb_blackcat;
+            case 6:
+            case 7:
+                return R.drawable.filter_thumb_beauty;
+            case 8:
+                return R.drawable.filter_thumb_healthy;
+            case 9:
+                return R.drawable.filter_thumb_sweets;
+            case 10:
+                return R.drawable.filter_thumb_romance;
+            case 11:
+                return R.drawable.filter_thumb_sakura;
+            case 12:
+                return R.drawable.filter_thumb_warm;
+            case 13:
+                return R.drawable.filter_thumb_antique;
+            case 14:
+                return R.drawable.filter_thumb_nostalgia;
+            case 15:
+                return R.drawable.filter_thumb_calm;
+            case 16:
+                return R.drawable.filter_thumb_latte;
+            case 17:
+                return R.drawable.filter_thumb_tender;
+            case 18:
+                return R.drawable.filter_thumb_cool;
+            case 19:
+                return R.drawable.filter_thumb_emerald;
+            case 20:
+                return R.drawable.filter_thumb_evergreen;
+            case 21:
+                return R.drawable.filter_thumb_crayon;
+            case 22:
+                return R.drawable.filter_thumb_sketch;
+            case 23:
+                return R.drawable.filter_thumb_amoro;
+            case 24:
+                return R.drawable.filter_thumb_brannan;
+            case 25:
+                return R.drawable.filter_thumb_brooklyn;
+            case 26:
+                return R.drawable.filter_thumb_earlybird;
+            case 27:
+                return R.drawable.filter_thumb_freud;
+            case 28:
+                return R.drawable.filter_thumb_hefe;
+            case 29:
+                return R.drawable.filter_thumb_hudson;
+            case 30:
+                return R.drawable.filter_thumb_inkwell;
+            case 31:
+                return R.drawable.filter_thumb_kevin;
+            case 32:
+                return R.drawable.filter_thumb_lomo;
+            case 33:
+                return R.drawable.filter_thumb_1977;
+            case 34:
+                return R.drawable.filter_thumb_nashville;
+            case 35:
+                return R.drawable.filter_thumb_piaxr;
+            case 36:
+                return R.drawable.filter_thumb_rise;
+            case 37:
+                return R.drawable.filter_thumb_sierra;
+            case 38:
+                return R.drawable.filter_thumb_sutro;
+            case 39:
+                return R.drawable.filter_thumb_toastero;
+            case 40:
+                return R.drawable.filter_thumb_walden;
+            case 41:
+                return R.drawable.filter_thumb_beauty;
+            default:
+                return R.drawable.filter_thumb_original;
+        }
+    }
+}

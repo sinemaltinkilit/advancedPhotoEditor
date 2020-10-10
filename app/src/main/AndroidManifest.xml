@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.simealapps.simealape">
+
+    <application
+        android:name="com.simealapps.simealape.utils.AdmobApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:requestLegacyExternalStorage="true">
+        <activity android:name="com.simealapps.simealape.activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.simealapps.simealape.activities.MainActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.simealapps.simealape.activities.MyCreationActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.simealapps.simealape.activities.ShareActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.simealapps.simealape.activities.BeautyCamera"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.simealapps.simealape.activities.CreateCollageActivity"
+            android:screenOrientation="portrait"></activity>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/ADMOB_APP_ID" />
+    </application>
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"></uses-permission>
+
+</manifest>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="16dp"
+    android:layout_height="76dp">
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:background="#4daaaaaa" />
+</RelativeLayout>
